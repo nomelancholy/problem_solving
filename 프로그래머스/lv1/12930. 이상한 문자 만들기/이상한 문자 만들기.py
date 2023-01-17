@@ -13,8 +13,6 @@ def solution(s):
                 new_chunk += c.lower()
         chunk_arr.append(new_chunk)
     
-    print(chunk_arr)
-    
     characters = ''.join(chunk_arr)
     
     answer = ''
