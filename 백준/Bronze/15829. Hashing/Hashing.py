@@ -8,4 +8,4 @@ m = 1234567891
 for i, c in enumerate(s):
   sum += ((ord(c) - 96) * (r ** i)) % m
 
-print(sum)
+print(sum % m)
