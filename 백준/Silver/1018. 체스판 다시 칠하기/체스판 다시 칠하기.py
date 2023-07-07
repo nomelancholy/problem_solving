@@ -6,7 +6,7 @@ for _ in range(n):
   row = list(input())
   board.append(row)
 
-answer = 33
+answer = 32
 
 def color_change(copy_board):
   b_count = 0
